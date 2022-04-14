@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    display: block;
+}
+
+.img1 {
+    display: block;
+    width: 1590px;
+    height: 732px;
+}
+
+.container {
+    position: relative;
+
+}
+
+.container-item {
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.container-item2 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 8px;
+    left: 16px;
+}
