@@ -4,7 +4,34 @@ body {
 }
 
 .img {
-    height: 100px;
-    width: 100px;
+    display: block;
+    height: 100vh;
+    width: 1600px;
+    position: absolute;
+    top: 0;
+}
 
+.container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+
+}
+
+.svg {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+
+}
+
+.icon {
+    font-size: 30px;
 }
